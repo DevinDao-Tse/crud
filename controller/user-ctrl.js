@@ -18,8 +18,28 @@ createUser = (req, res)=>{
 
 }
 
+updateUser = async(res, req)=>{
+
+}
+
+deleteUser = async(res,req)=>{
+
+}
+
+listUser = async(req,res)=>{
+    res.send('User crud list')
+}
+
+filterUser = async (res,req)=>{
+
+}
+
 module.exports = {
-    createUser
+    createUser, 
+    updateUser,
+    deleteUser,
+    listUser,
+    filterUser
 }
 
 
